@@ -1,0 +1,44 @@
+body {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#game {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(15, 40px);
+  width: 600px;
+}
+
+.tile {
+  width: 40px;
+  height: 40px;
+}
+
+.platform {
+  background: gray;
+}
+
+.lava {
+  background: red;
+}
+
+.water {
+  background: blue;
+}
+
+.fireboy {
+  background: orangered;
+  border-radius: 50%;
+}
+
+.watergirl {
+  background: deepskyblue;
+  border-radius: 50%;
+}
+
+.exit {
+  background: limegreen;
+}
